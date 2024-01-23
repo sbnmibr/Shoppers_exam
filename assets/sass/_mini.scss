@@ -1,0 +1,40 @@
+#mini{
+    margin-top: 50PX;
+    .mini-cards{
+        display: flex;
+        justify-content: space-between;
+        .card{
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            // padding: 50px;
+            // gap: 10px;
+            width: 33%;
+           
+            .card-text{
+               padding: 20px;
+                h2{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 14px;
+                    margin-top: 20px;
+                    color: grey;
+                }
+            }
+            
+        }
+      
+    }
+    @media screen and (max-width:767px) {
+       .mini-cards{
+        display: flex;
+       flex-direction: column;
+        .card{
+            width: 100%;
+        }
+       }
+    }
+    border-bottom: 1px solid rgb(232, 224, 224);
+}

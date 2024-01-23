@@ -1,0 +1,131 @@
+footer{
+    margin-top: 100px;
+    .footer{
+        padding: 70px;
+        .footer-top{
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+           .left{
+            width: 50%; 
+            h1{
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            .left-all{
+                display: flex;
+                justify-content: space-between;
+                nav{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        li{
+                            a{
+                                color: rgb(103, 102, 102);
+                            }
+                        }
+                    }
+                }
+            }
+           }
+           .right{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            .promo{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h1{
+                    font-size: 25px;
+                }
+                img{
+                    width: 200px;
+                }
+            }
+            .contact{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h1{
+                    color: rgb(60, 13, 60);
+                    font-size: 25px;
+                }
+                .foot-mini{
+                    display: flex;
+                    gap: 10px;
+                    i{
+                        color:#7971EA
+                    }
+                }
+                .footer-inputs{
+                    h1{
+                        color: rgb(105, 103, 103);
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                    }
+                    .footer-input{
+                        position: relative;
+                        input{
+                            padding: 15px 40px;
+                        }
+                        button{
+                            position: absolute;
+                            right: 110px;
+                            bottom: 2px;
+                            padding: 15px 30px;
+                            background-color: #7971EA;
+                            color: white;
+                            border: none;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    
+    }
+    .footer-bottom{
+        padding: 20px;
+        margin-top: 40px;
+        text-align: center;
+        color: grey;
+    }
+    @media screen and (max-width:767px) {
+        .footer{
+            padding: 0 5%;
+            .footer-top{
+                display: flex;
+                    flex-direction: column; 
+                .left{
+                    width: 100%;
+                   .left-all{
+                    display: flex;
+                    flex-direction: column; 
+                    gap: 30px;
+                   }
+                }
+                .right{
+                    width: 100%;
+                    // padding: 0px;
+                    display: flex;
+                    flex-direction: column; 
+                   .promo{
+                    img{
+                        width: 600px;
+                    }
+                   }
+                .footer-inputs{
+                    .footer-input{
+                        .input{
+                            width: 600px;
+                        }
+                       }
+                }
+                }
+            }
+        }
+    }
+}

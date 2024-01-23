@@ -1,0 +1,79 @@
+#sale{
+    margin-top: 100px;
+    .sale{
+        .head-logo{
+            text-align: center;
+            padding: 30px;
+            .layout{
+                width: 4%;
+                height: 2px;
+                background-color: blue;
+               margin-left: 540px;
+               margin-bottom: 10px;
+            }
+            h1{
+                font-size: 30px;
+                font-family: 'Mukta', sans-serif;
+            }
+        }
+        .all{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px   ;
+            .sale-left{
+                width: 50%;
+                img{
+                    width: 100%;
+                }
+            }
+            .sale-right{
+                width: 50%;
+                // display: flex;
+                // flex-direction: column;
+                padding: 70px;
+                gap: 20px;
+                text-align: center;
+               
+                h1{
+                    color: rgb(95, 36, 171);
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: grey;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                button{
+                    padding: 15px 30px;
+                    border: none;
+                    background-color: #5A50E5;
+                    color: white;
+                    transition: all 0.5s;
+                    // width: 30%;
+                    margin-top: 10px;
+                    letter-spacing: 2px;
+                    &:hover{
+                        box-shadow: 3px 4px 3px black;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+    @media screen and (max-width:767px) {
+        .sale{
+            .all{
+                display: flex;
+                flex-direction: column;
+                .sale-left{
+                    width: 100%;
+                }
+                .sale-right{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

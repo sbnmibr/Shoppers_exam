@@ -1,0 +1,57 @@
+#products{
+    margin-top: 100px;
+    .products{
+        .head-logo{
+            text-align: center;
+            padding: 30px;
+            .layout{
+                width: 4%;
+                height: 2px;
+                background-color: blue;
+               margin-left: 540px;
+               margin-bottom: 10px;
+            }
+            h1{
+                font-size: 30px;
+                font-family: 'Mukta', sans-serif;
+            }
+        }
+        .products-cards{
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            .card{
+                width: 33%;
+                img{
+                    width: 100%;
+                }
+                .content{
+                    padding: 20px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h1{
+                        font-size: 18px;
+                        color: rgb(48, 152, 171);
+                    }
+                    p{
+                        color: grey;
+                    }
+                }
+            }
+        }
+    }
+    @media  screen and (max-width:767px){
+        .products{
+            padding: 0 5%;
+            .products-cards{
+                display: flex;
+                flex-direction: column;
+                .card{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

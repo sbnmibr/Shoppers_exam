@@ -1,0 +1,60 @@
+#home {
+  background-image: url("../image/hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  .home {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+
+    .home-empty {
+      width: 50%;
+    }
+    .home-text {
+      padding: 0px 40px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 40px;
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+        font-family: "Mukta", sans-serif;
+      }
+      button {
+        background-color: #5a50e5;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding:100px ;
+    .home {
+      display: flex;
+      flex-direction: column;
+      .home-empty {
+        width:0%;
+      }
+      .home-text {
+        
+        width: 100%;
+        padding: 0px;
+        h1 {
+          font-size: 20px;
+        }
+        p {
+          color: 16px;
+        }
+      }
+    }
+  }
+}
