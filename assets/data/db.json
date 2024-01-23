@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Tank Top",
+      "image": "./assets/image/cloth_1.jpg",
+      "desc": "Finding perfect t-shirt",
+      "price": 60
+    },
+    {
+      "id": "2",
+      "title": "Corater",
+      "image": "./assets/image/cloth_2.jpg",
+      "desc": "Finding perfect t-shirt",
+      "price": 70
+    },
+    {
+      "id": "6",
+      "title": "kenan m",
+      "image": "./assets/image/cloth_1.jpg",
+      "desc": "Finding perfect t-shirt",
+      "price": "799"
+    },
+    {
+      "id": "68",
+      "title": "kenan m",
+      "image": "./assets/image/cloth_1.jpg",
+      "desc": "Finding perfect t-shirt",
+      "price": "799"
+    }
+  ]
+}
