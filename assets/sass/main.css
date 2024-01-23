@@ -249,12 +249,9 @@ header .header .header-bottom nav ul li a {
   font-family: "Mukta", sans-serif;
 }
 #products .products .products-cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-#products .products .products-cards .card {
-  width: 33%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 #products .products .products-cards .card img {
   width: 100%;
@@ -273,13 +270,24 @@ header .header .header-bottom nav ul li a {
 #products .products .products-cards .card .content p {
   color: grey;
 }
+#products .products button {
+  padding: 15px 30px;
+  border: none;
+  background-color: #5A50E5;
+  color: white;
+  transition: all 0.5s;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+#products .products button:hover {
+  box-shadow: 3px 4px 3px black;
+}
 @media screen and (max-width: 767px) {
   #products .products {
     padding: 0 5%;
   }
   #products .products .products-cards {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
   }
   #products .products .products-cards .card {
     width: 100%;

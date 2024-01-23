@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header-top">
+            <div class="logo">
+              <h1>SHOPPERS</h1>
+            </div>
+            <div class="header-icons">
+              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-heart"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-bars menu"></i>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">New Arrivles</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="form">
+      <form action="">
+        <input type="text" placeholder="title" id="title" /> <br /><br />
+
+        <input type="file" id="file" /> <br /><br />
+
+        <input type="text" placeholder="description" id="desc" /> <br /><br />
+        <input type="text" placeholder="price" id="desc" /> <br /><br />
+        <button>submit</button>
+      </form>
+    </div>
+    <div class="table">
+      <div class="all">
+        <input type="search" class="search" placeholder="search here"/> 
+      <button class="sort">Ascending</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+    integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./assets/js/form.js"></script>
+</html>

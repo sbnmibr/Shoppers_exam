@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: black;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 100px;
+}
+
+form {
+  background-color: thistle;
+  padding: 40px;
+}
+input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.all {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5a50e5;
+  color: white;
+  letter-spacing: 2px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    margin-top: 100px;
+}
+table,tr,td,th{
+border: 1px solid;
+border-collapse: collapse;
+padding: 30px;
+}   
+th{
+    padding: 20px;
+}
+table img{
+    width: 100px;
+}
+
+.search{
+    width: 60%;
+    outline: none;
+}
+.edit{
+    padding: 10px 20px;
+    border: none;
+    background-color: #a6340a;
+    color: white;
+  
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.delete{
+    padding: 10px 20px;
+    border: none;
+    background-color: #099120;
+    color: white;
+  
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
